@@ -12,7 +12,7 @@
 
 //  HARDWARE INTERFACE SECTION
 Grove_LCD_RGB_Backlight rgbLCD(D14, D15);   // pins for LCD connection(D14,D15)
-DigitDisplay segment(D2,D3);                // 4 digit display connected to D16
+DigitDisplay segment(D2,D3);                // 4 digit display connected to D2
 Serial blue(D1,D0);                         // blue is of class serial (D1,D0) 
                                             // associated with UART
 int main()
